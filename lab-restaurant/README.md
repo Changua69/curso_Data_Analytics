@@ -13,11 +13,14 @@ Consolidar los datos de productos, clientes y ventas de dos semanas de operació
 
 ## Instrucciones de ejecución
  
-1. Clonar el repositorio y colocar los cuatro archivos CSV en `data/` (o montar Google Drive si se ejecuta en Colab).
+1. Colocar los cuatro archivos CSV en en el drive con el nombre `data/` (o montar Google Drive si se ejecuta en Colab).
 2. Abrir `lab_Sem2_DA.ipynb` en Google Colab o Jupyter Notebook.
 3. Ejecutar las celdas en orden, de la primera a la última, sin modificaciones manuales (criterio de reproducibilidad).
 4. El notebook:
-   - Carga y valida las claves (`Food ID`, `Customer ID`) y sus referencias entre tablas.
+   - Al ejecutar la primera celda de código va aparecer una ventana emergente de de Google drive para enlazar con el colab.
+   - Después de haber hecho el enlace de la primera vez va a aparecer otra segunda donde se van enlazar todo lo que este contenido en el drive con el colab.
+   - Después de enlazar el drive con el colab se van a ejecutar todas las celdas en orden 
+   - Carga y valida las claves (`Food ID`, `Customer ID`) y sus referencias entre tablas. 
    - Consolida `foods`, `customers` y las ventas de ambas semanas mediante `merge` con `validate='many_to_one'`.
    - Calcula KPIs de ingresos, frecuencia de compra, recurrencia e ingresos por ocupación.
    - Replica el resumen semanal con una consulta SQL en SQLite y compara contra el resultado en Pandas.
