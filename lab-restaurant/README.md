@@ -29,6 +29,6 @@ Consolidar los datos de productos, clientes y ventas de dos semanas de operació
  
 - **Ingresos totales registrados:** $3,886.56 en las dos semanas (500 registros de venta).
 - **Semana 1 vs. semana 2:** los ingresos bajaron ligeramente de $1,962.68 a $1,923.88 (250 registros cada semana); el ingreso promedio por registro cayó de $7.85 a $7.70.
-- **Desempeño del menú:** el *Burrito* tiene la mayor frecuencia de compra (57 registros), pero el *Steak* genera los mayores ingresos ($1,249.50), porque su precio unitario es más alto y compensa su menor rotación.
+- **Desempeño del menú:** el *Burrito* es el que la tiene la mayor frecuencia de compra en el menú de comidas y como como tal el que ah tenido mas frecuencia son las bebidas *(Drink)*. El *Burrito* cuenta con (57 registros), pero el *Steak* genera los mayores ingresos ($1,249.50), porque su precio unitario es más alto y compensa su menor rotación.
 - **Recurrencia:** de 221 clientes únicos en la semana 1, solo 46 (20.8%) volvieron a comprar en la semana 2.
 - **Perfil por ocupación:** las cinco ocupaciones con mayor gasto agregado (Compensation Analyst, Sales Representative, Marketing Manager, Cost Accountant, Assistant Media Planner) presentan valores cercanos entre $72.69 y $116.68, sin una concentración marcada.
