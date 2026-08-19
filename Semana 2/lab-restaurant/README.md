@@ -1,4 +1,4 @@
-##*Curso de Analítica de Datos
+## Curso de Analítica de Datos
 Este repositorio reúne los ejercicios, proyectos y aprendizajes desarrollados a lo largo del curso, y representa mi proceso de formación y aplicación práctica de los conceptos de analítica de datos.
 *Integrantes*: William Stevan Arevalo Murcia, Erick Florez Caceres, Jose Enrique España Ahumada
 ## Objetivo
