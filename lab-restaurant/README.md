@@ -1,3 +1,6 @@
+##*Curso de Analítica de Datos
+Este repositorio reúne los ejercicios, proyectos y aprendizajes desarrollados a lo largo del curso, y representa mi proceso de formación y aplicación práctica de los conceptos de analítica de datos.
+*Integrantes*: William Stevan Arevalo Murcia, Erick Florez Caceres, Jose Enrique España Ahumada
 ## Objetivo
 Consolidar los datos de productos, clientes y ventas de dos semanas de operación de un restaurante para construir indicadores de ingresos, frecuencia de compra y recurrencia de clientes que apoyen decisiones sobre el menú y la fidelización. El análisis no incluye costos, cantidades ni descuentos, por lo que no se calculan rentabilidad, utilidad ni margen.
 ## Datos utilizados
