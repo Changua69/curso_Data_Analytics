@@ -1,3 +1,7 @@
+# Integrantes
+* William Arevalo 
+* Jose España 
+* Erick Florez 
 # Predicción de popularidad de canciones
 
 Taller en dos sprints para una disquera que debe decidir, **antes del lanzamiento**, en qué canciones invertir promoción.
@@ -9,7 +13,7 @@ https://demo-reg-clas-canciones1-bg3d.onrender.com/
 
 Cada sprint cierra con un incremento en producción: un servicio FastAPI publicado en Render que lee un único archivo, `models/modelo.pkl`, con el modelo entrenado y su ficha.
 
-> Universidad Central, Ingeniería de Sistemas, 2026-2. Autor: **[Nombre del estudiante]**
+> Universidad Central, Ingeniería de Sistemas, 2026-2.
 
 ---
 
@@ -168,24 +172,6 @@ Con probabilidades bien calibradas, el umbral óptimo teórico es 1 / (1 + 3) = 
 ### Regla de decisión
 
 **Promocionar si la probabilidad de hit supera 0,22** (umbral del modelo publicado). Los costos de cada error los fija quien responde por el presupuesto.
-
----
-
-## Registro comparativo de regresión
-
-Todas las corridas se evalúan sobre las mismas 415 canciones de 2020-2025 y se conservan, incluidas las descartadas.
-
-| Corrida | MAE | Origen | Lectura |
-|---|---|---|---|
-| Media global del entrenamiento | 11,06 | Material del curso | Error de no tener modelo |
-| Media por género | 10,44 | Medido | Línea base |
-| Lineal con duración² | 5,75 | Material del curso | Modelo de referencia |
-| **Ridge con duración²** | **5,76** | Medido | **Publicado** |
-| Lasso con duración² | 5,79 | Medido | `alpha` = 0,057; descartó `tempo` y el indicador de género electrónica |
-| Gradient boosting | 6,63 | Material del curso | Subestima; no extrapola el año |
-| Random Forest | 6,95 | Material del curso | Más complejo no es mejor |
-
-Ridge y Lasso quedan prácticamente iguales a la regresión lineal: con 1.585 canciones y 10 variables, la regularización aporta poco. Que Lasso haya llevado a cero el indicador de electrónica no significa que el género no importe: las indicadoras de género suman 1, así que su efecto pasa al intercepto.
 
 ---
 
